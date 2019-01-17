@@ -152,6 +152,30 @@ public class WidgetID
 		static final int TEXT = 4;
 	}
 
+	static class DialogPlayer
+	{
+		static final int HEAD_MODEL = 0;
+		static final int NAME = 1;
+		static final int CONTINUE = 2;
+		static final int TEXT = 3;
+	}
+
+	static class DialogNotification
+	{
+		static final int TEXT = 0;
+		static final int CONTINUE = 1;
+	}
+
+	static class DialogOption
+	{
+		static final int TEXT = 0;
+		static final int OPTION1 = 1;
+		static final int OPTION2 = 2;
+		static final int OPTION3 = 3;
+		static final int OPTION4 = 4;
+		static final int OPTION5 = 5;
+	}
+	
 	static class LogoutPanel
 	{
 		static final int WORLD_SWITCHER_BUTTON = 3;
